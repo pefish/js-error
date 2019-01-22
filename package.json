@@ -1,11 +1,11 @@
 {
   "name": "p-js-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "build": "rm -rf lib && babel src -d lib"
   },
   "main": "lib/error.js",
   "dependencies": {
-    "node-assist": "^0.3.16"
+    "node-assist": "^0.4.0"
   }
 }
