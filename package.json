@@ -1,11 +1,30 @@
 {
   "name": "p-js-error",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "build": "rm -rf lib && babel src -d lib"
   },
   "main": "lib/error.js",
   "dependencies": {
     "node-assist": "^0.4.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "ignore": [
+      "node_modules"
+    ],
+    "env": {
+      "build": {
+        "optional": [
+          "optimisation",
+          "minification"
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }
