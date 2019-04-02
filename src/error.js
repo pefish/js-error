@@ -1,5 +1,5 @@
 /** @module */
-import 'node-assist'
+
 /**
  * 错误帮助类
  * @extends Error
@@ -12,11 +12,11 @@ class ErrorHelper extends Error {
       errorCode,
       errorStorage
     }
-    err && logger.error('ERROR: ', err.message)
+    err && console.error('ERROR: ', err.message)
     super(JSON.stringify(message))
-    this.setErrorCode(errorCode)
-    this.setErrorMessage(errorMessage)
-    errorStorage && this.setErrorStorage(errorStorage)
+    this._errorCode = errorCode
+    this._errorMessage = errorMessage
+    errorStorage && (this._errorStorage = errorStorage)
   }
 }
 

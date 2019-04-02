@@ -463,11 +463,6 @@ babylon@^6.18.0:
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
   integrity sha512-q/UEjfGJ2Cm3oKV71DJz9d25TPnq5rhBVL2Q4fA5wcC3jcrdn7+SssEybFIxwAvvP+YCsCYNKughoF33GxgycQ==
 
-bignumber.js@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-6.0.0.tgz#bbfa047644609a5af093e9cbd83b0461fa3f6002"
-  integrity sha512-x247jIuy60/+FtMRvscqfxtVHQf8AGx2hm9c6btkgC0x/hp9yt+teISNhvF8WlwRkCc5yF2fDECH8SIMe8j+GA==
-
 browserslist@^3.2.6:
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
@@ -570,14 +565,6 @@ ms@2.0.0:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
-node-assist@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/node-assist/-/node-assist-0.4.0.tgz#c0e5522ff8f3c2bdd33c0204599e4ddeab912ca8"
-  integrity sha512-g0mc1MUZobwSx5+9Aekj+1Hx4E6ljzbS0iZBA3+32mPsju/TSTdMxO87q4pgs7qJyM8fS9ZY1YnV9v8sHzFGIQ==
-  dependencies:
-    bignumber.js "^6.0.0"
-    regenerator-runtime "^0.13.1"
-
 private@^0.1.6:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -592,11 +579,6 @@ regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
-
-regenerator-runtime@^0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.1.tgz#522ea2aafd9200a00eee143dc14219a35a0f3991"
-  integrity sha512-5KzMIyPLvfdPmvsdlYsHqITrDfK9k7bmvf97HvHSN4810i254ponbxCQ1NukpRWlu6en2MBWzAlhDExEKISwAA==
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
