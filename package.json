@@ -1,8 +1,9 @@
 {
-  "name": "p-js-error",
-  "version": "0.0.4",
+  "name": "@pefish/js-error",
+  "version": "0.0.5",
   "scripts": {
-    "build": "rm -rf lib && babel src -d lib"
+    "build": "rm -rf lib && babel src -d lib",
+    "prepublish": "yarn build"
   },
   "main": "lib/error.js",
   "dependencies": {},
@@ -23,6 +24,7 @@
     }
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
   }
 }
