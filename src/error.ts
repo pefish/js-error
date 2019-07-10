@@ -5,15 +5,18 @@
  * @extends Error
  */
 class ErrorHelper extends Error {
-  constructor (errorMessage, errorCode = 0, errorStorage = null, err = null) {
+  _errorCode: number
+  _errorMessage: string
+  _errorStorage: {}
+
+  constructor (errorMessage: string, errorCode: number = 0, errorStorage: {} = null, err: any = null) {
     // 抛出ErrorHelper，但catch到的是Error对象
-    const message = {
+    err && console.error('ERROR: ', err.message)
+    super(JSON.stringify({
       errorMessage,
       errorCode,
       errorStorage
-    }
-    err && console.error('ERROR: ', err.message)
-    super(JSON.stringify(message))
+    }))
     this._errorCode = errorCode
     this._errorMessage = errorMessage
     errorStorage && (this._errorStorage = errorStorage)
