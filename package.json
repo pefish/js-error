@@ -1,11 +1,12 @@
 {
   "name": "@pefish/js-error",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "rm -rf lib && rm -rf types && tsc",
     "prepublish": "yarn build"
   },
   "main": "lib/error.js",
+  "types": "types/error.d.ts",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^11.13.7",
