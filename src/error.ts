@@ -24,3 +24,11 @@ class ErrorHelper extends Error {
 }
 
 export default ErrorHelper
+
+const INTERNAL_ERROR = 1
+const INTERNAL_ERROR_MESSAGE = `internal error`
+
+export {
+  INTERNAL_ERROR,
+  INTERNAL_ERROR_MESSAGE
+}
